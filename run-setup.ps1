@@ -1,7 +1,7 @@
 ﻿# 1) Write server/.env with your values
 $envContent = @"
 PORT=4000
-MONGODB_URI=mongodb+srv://tirupathamma31:23cse275%2A@mydb.f04hufo.mongodb.net/foodapp?appName=MyDB
+MONGODB_URI=mongodb+srv:--------------------------------------------------------
 JWT_SECRET=W9xX2qvZz2a4kQw7nE7mZpR3uG5bV8c1Y4tU9oR2sM6nD3fH1pK7jL0bC8vQ5rT2
 "@
 New-Item -ItemType Directory -Force -Path ".\server" | Out-Null
